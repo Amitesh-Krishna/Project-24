@@ -19,7 +19,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper(50,50,17);
+	paper = new Paper(50,630,17);
 	binPartL = new DustbinPart(500,600,20,100);
 	binPartR = new DustbinPart(600,600,20,100);
 	binPartB = new DustbinPart(550,650,100,20);
